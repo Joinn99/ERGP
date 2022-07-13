@@ -1,0 +1,15 @@
+# Pinterest Dataset
+# Source: https://github.com/hexiangnan/neural_collaborative_filtering/blob/master/Data/pinterest-20.train.rating
+#         https://github.com/hexiangnan/neural_collaborative_filtering/blob/master/Data/pinterest-20.test.rating
+
+# Dataset Paramater
+dataset: pinterest
+
+# Fine-tuned Parameters
+lambda: 0.5
+rho: 5000
+theta_1: 1.0
+theta_2: 2.0
+eta: 1.0
+tol: 1.5e-3
+size_limit: 5000

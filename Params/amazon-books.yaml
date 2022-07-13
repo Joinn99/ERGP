@@ -1,0 +1,16 @@
+# Amazon-books Dataset
+# Source: https://github.com/kuandeng/LightGCN/blob/master/Data/amazon-book/train.txt
+#         https://github.com/kuandeng/LightGCN/blob/master/Data/amazon-book/test.txt
+
+# Dataset Paramaters
+dataset: amazon-books
+benchmark_filename: ['train','test','test']
+
+# Fine-tuned Parameters
+lambda: 0.01
+rho: 1e3
+theta_1: 1.0
+theta_2: 0.1
+eta: 0.1
+tol: 5e-3
+size_limit: 14000

@@ -1,0 +1,6 @@
+Log/*
+saved/*
+Data/*
+!Data/pinterest/
+*.pyc
+*.zip
