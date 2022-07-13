@@ -1,6 +1,6 @@
 # ERGP
 This is the official implementation of our paper:
-> Tianjun Wei, Tommy W. S. Chow, and Jianghong Ma. Efficient and Scalable Recommendation via Item-Item Graph Partitioning.
+> Tianjun Wei, Jianghong Ma, Tommy W. S. Chow. Efficient and Scalable Recommendation via Item-Item Graph Partitioning.
 
 ## Requirements
 The model implementation ensures compatibility with the Recommendation Toolbox [RecBole](https://recbole.io/) (Github: [Recbole](https://github.com/RUCAIBox/RecBole)), and uses [CuPy](https://cupy.dev/) to accrelate the model training on GPU. The requirements of the running environement:
